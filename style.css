@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar{
+    height: 60px;
+    background-color:rgba(45, 7, 184, 0.192);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+.navbar a {
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.header{
+    background-color: dimgray;
+    color: white;
+    padding:20px;
+
+}
+.header img {
+    width: 100%;
+    height: auto;
+}
+.main {
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+}
+#test{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid black;
+    width: 10%;
+   
+}
