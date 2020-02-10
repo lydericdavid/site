@@ -44,3 +44,19 @@ body {
     width: 10%;
    
 }
+
+.colonne {
+    -webkit-column-count:4; 
+    -moz-column-count: 4; 
+    column-count: 4; 
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+.realisation {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
